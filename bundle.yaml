@@ -1,10 +1,10 @@
 apiVersion: "1"
-version: "1"
+version: "3"
 id: "cloudbees-ci2-ops-controller"
 description: "CloudBees CI configuration bundle for the cloudbees-ci2 ops-controller Controller"
 availabilityPattern: "cloudbees-ci-casc-workshop/cloudbees-ci2/ops-controller"
 jcasc:
-  - "jenkins.yaml"
+  - "jcasc/"
 plugins:
   - "plugins.yaml"
 items:
